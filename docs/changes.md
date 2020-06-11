@@ -1,4 +1,4 @@
-## [v0.0.0] - 2020-06-11
+## [0.0.0] - 2020-06-11
 ### Added
 - Features under development
 
