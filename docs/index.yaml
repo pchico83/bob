@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  bob:
+  - apiVersion: v2
+    appVersion: v0.8.7-rc.4
+    created: "2020-06-16T20:13:36.325139153Z"
+    description: Bash on Board! - General purpose container for Kubernetes
+    digest: 6833fd1ccb65083dc10eff0f4993cee62c00f23d426a3b8217f9337e2a0f123e
+    home: https://BobDotMe.github.io/bob
+    icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
+    keywords:
+    - bob
+    - BobDotMe
+    - bash
+    - bobdotme
+    maintainers:
+    - email: bob@bobdot.me
+      name: rsliotta
+    name: bob
+    sources:
+    - https://github.com/BobDotMe/bob
+    type: application
+    urls:
+    - https://BobDotMe.github.io/bob/bob-v0.8.7-rc.4.tgz
+    version: v0.8.7-rc.4
+generated: "2020-06-16T20:13:36.324621752Z"

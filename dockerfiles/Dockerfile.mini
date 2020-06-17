@@ -3,5 +3,6 @@ ADD distro/squashed.tar.gz /
 ADD files/entrypoint-mini.sh /files/entrypoint.sh
 ADD files/.bashrc /root/.bashrc
 
+
 ENTRYPOINT [ "/files/entrypoint.sh" ]
 #CMD [ "/usr/bin/bash" ]
