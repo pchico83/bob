@@ -68,7 +68,7 @@ spec:
       name: sync
 ---
 apiVersion: apps/v1
-kind: StatefulSet
+kind: Deployment
 metadata:
   name: bob-core
   namespace: {{ .Values.namespace}}
@@ -76,7 +76,6 @@ spec:
   selector:
     matchLabels:
       app: bob-core
-  serviceName: bob-core
   replicas: {{ .Values.image.replicas}}
   template:
     metadata:
